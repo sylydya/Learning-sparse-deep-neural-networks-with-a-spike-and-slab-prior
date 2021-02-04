@@ -32,7 +32,7 @@ python cifar_run.py -depth 32 --Proposal_B 400 180 --lambdan 0.0001
 python cifar_run.py -depth 32 --Proposal_B 400 300 --lambdan 0.001
 python cifar_run_vgg.py
 ```
-CIFAR-10 Result, average over 3 runs
+CIFAR-10 Result, average over 3 runs. The first four lines denote the result using the model at last epoch. The last four line denot the result using Bayesian model average over models at the last 75 epochs.
 Model Average | Model   |      Sparsity      | Accuracy  |
 |----------|:-------------:|:-------------:|:-------------:|
 |No   | ResNet20 | 9.88\%(0.08\%)  | 91.26(0.02) |
