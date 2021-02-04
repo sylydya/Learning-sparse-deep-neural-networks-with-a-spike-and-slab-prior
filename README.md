@@ -1,9 +1,6 @@
-Bayesian Sparse Deep Neural Networks: Theory and Computation
+Extended-SGMCMC-for-BNN-with-spike-and-slab-prior
 ===============================================================
-
-### Installation
-
-Requirements for Pytorch see [Pytorch](http://pytorch.org/) installation instructions
+Applied extended SGMCMC method from https://arxiv.org/abs/2002.02919 to high dimensional variable selection and network pruning
 
 ### Simulation:
 
@@ -16,19 +13,11 @@ Variable Selection:
     ```
     python Simulation_Regression.py --data_index 1
     ```
-Variable Selection Baseline:
-    ```
-    python Spinn_Regression.py --data_index 1
-    ```
 
 ##### Command For Running Structure Selection Experiment
 Structure Selection
     ```
     python Simulation_Structure.py --data_index 1
-    ```
-Structure Selection Baseline:
-    ```
-    python Spinn_structure.py --data_index 1
     ```
 
 ##### Command For Running Real Data Experiment:
