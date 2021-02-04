@@ -1,6 +1,6 @@
 Extended-SGMCMC-for-BNN-with-spike-and-slab-prior
 ===============================================================
-Applied extended SGMCMC method from https://arxiv.org/abs/2002.02919 to high dimensional variable selection and network pruning
+Applied extended SGMCMC method from paper Extended Stochastic Gradient MCMC for Large-Scale Bayesian Variable Selection https://arxiv.org/abs/2002.02919 to high dimensional variable selection and network pruning
 
 ### Simulation:
 
