@@ -5,26 +5,26 @@ Applied extended SGMCMC method from paper Extended Stochastic Gradient MCMC for 
 ### Simulation:
 
 Generate Data:
-    ```{python}
-    python Generate_Data.py
-    ```
+```{python}
+python Generate_Data.py
+```
 ##### Command For Running Variable Selection Experiment
 Variable Selection:
-    ```{python}
-    python Simulation_Regression.py --data_index 1
-    ```
+```{python}
+python Simulation_Regression.py --data_index 1
+```
 
 ##### Command For Running Structure Selection Experiment
 Structure Selection
-    ```{python}
-    python Simulation_Structure.py --data_index 1
-    ```
+```{python}
+python Simulation_Structure.py --data_index 1
+```
 
 ##### Command For Running Real Data Experiment:
 MNIST Compression
-    ```{python}
-    python mnist_300_100.py
-    ```
+```{python}
+python mnist_300_100.py
+```
     
 CIFAR Compression
 ```{python}
