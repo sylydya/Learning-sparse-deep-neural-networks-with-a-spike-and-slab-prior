@@ -8,19 +8,17 @@ Generate Data:
 ```{python}
 python Generate_Data.py
 ```
-##### Command For Running Variable Selection Experiment
+
 Variable Selection:
 ```{python}
 python Simulation_Regression.py --data_index 1
 ```
 
-##### Command For Running Structure Selection Experiment
 Structure Selection
 ```{python}
 python Simulation_Structure.py --data_index 1
 ```
-
-##### Command For Running Real Data Experiment:
+### Network Compression
 MNIST Compression
 ```{python}
 python mnist_300_100.py
