@@ -5,26 +5,27 @@ Applied extended SGMCMC method from paper Extended Stochastic Gradient MCMC for 
 ### Simulation:
 
 Generate Data:
-    ```
+    ```{python}
     python Generate_Data.py
     ```
 ##### Command For Running Variable Selection Experiment
 Variable Selection:
-    ```
+    ```{python}
     python Simulation_Regression.py --data_index 1
     ```
 
 ##### Command For Running Structure Selection Experiment
 Structure Selection
-    ```
+    ```{python}
     python Simulation_Structure.py --data_index 1
     ```
 
 ##### Command For Running Real Data Experiment:
 MNIST Compression
-    ```
+    ```{python}
     python mnist_300_100.py
     ```
+    
 CIFAR Compression
 ```{python}
 python cifar_run.py -depth 20 --Proposal_B 400 250 --lambdan 0.0001
@@ -39,3 +40,8 @@ Model Average | Model   |      Sparsity      | Accuracy  |
 |No   | ResNet20 | 19.83\%(0.02\%) | 92.32(0.04) | 
 |No   | ResNet32 | 8.77\%(0.12\%)  | 92.74(0.10) | 
 |No   | ResNet32 | 4.99\%(0.06\%)  | 91.39(0.10) | 
+|Yes  | ResNet20 | 9.65\%(0.05\%)  | 91.60(0.06) |
+|Yes  | ResNet20 | 19.76\%(0.02\%) | 92.65(0.02) | 
+|Yes  | ResNet32 | 8.69\%(0.16\%)  | 92.99(0.08) | 
+|Yes  | ResNet32 | 4.89\%(0.09\%)  | 91.84(0.09) | 
+
