@@ -1,6 +1,7 @@
-Extended-SGMCMC-for-BNN-with-spike-and-slab-prior
+Learning-sparse-deep-neural-networks-with-a-spike-and-slab-prior
+
 ===============================================================
-Applied extended SGMCMC method from paper Extended Stochastic Gradient MCMC for Large-Scale Bayesian Variable Selection (https://arxiv.org/abs/2002.02919) to high dimensional variable selection and network pruning
+Code to reproduce the experiment results in paper Learning Sparse Deep Neural Networks with a Spike-and-Slab Prior. We apply the extended SGMCMC method from paper Extended Stochastic Gradient MCMC for Large-Scale Bayesian Variable Selection (https://arxiv.org/abs/2002.02919) to high dimensional variable selection and network pruning
 
 ### Simulation:
 
